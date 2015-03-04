@@ -1,6 +1,7 @@
 package com.EsempioGWT.client;
 
 import com.EsempioGWT.client.Gui.GUI_Esempio;
+import com.EsempioGWT.client.Gui.GUI_Esempio2;
 import com.EsempioGWT.shared.FieldVerifier;
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
@@ -27,8 +28,8 @@ public class EsempioGWT implements EntryPoint, ClickHandler {
 	 * The message displayed to the user when the server cannot be reached or
 	 * returns an error.
 	 */
-	private Button premiButton;
-	private DialogBox dialogBox1;
+	private Button premiButton, secondoButton;
+	private DialogBox dialogBox1, dialogBox2;
 	private static final String SERVER_ERROR = "An error occurred while "
 			+ "attempting to contact the server. Please check your network "
 			+ "connection and try again.";
@@ -46,6 +47,8 @@ public class EsempioGWT implements EntryPoint, ClickHandler {
 		final Button sendButton = new Button("Send");
 		premiButton = new Button("Premimi");
 		premiButton.addClickHandler(this);
+		secondoButton = new Button("Secondo");
+		secondoButton.addClickHandler(this);
 		final TextBox nameField = new TextBox();
 		nameField.setText("GWT User");
 		final Label errorLabel = new Label();
@@ -58,6 +61,7 @@ public class EsempioGWT implements EntryPoint, ClickHandler {
 		vP.add(hP);
 		vP.add(errorLabel);
 		vP.add(premiButton);
+		vP.add(secondoButton);
 		
 
 		// We can add style names to widgets
@@ -188,37 +192,41 @@ public class EsempioGWT implements EntryPoint, ClickHandler {
 	public void onClick(ClickEvent event) {
 		if(premiButton == (Button)event.getSource()){
 			dialogBox1 = new DialogBox();
-
 			dialogBox1.setText("Speechy Service Registrazione");
-
 			dialogBox1.setAnimationEnabled(true);
-
 			final Button close = new Button("Chiudi");
-
 			close.setSize("70px", "25px");
-
 			VerticalPanel dialogVPanel = new VerticalPanel();
-
 			dialogVPanel.add(new GUI_Esempio()); // richiamo il pannello che gestisce la registrazione.
-
 			dialogVPanel.setHorizontalAlignment(VerticalPanel.ALIGN_RIGHT);
-
 			dialogVPanel.add(close);
-
 			dialogBox1.setWidget(dialogVPanel);
-
 			dialogBox1.center();
-
 			close.addClickHandler(new ClickHandler() {
-
 				public void onClick(ClickEvent event) {
-
 					dialogBox1.hide();
-
 				}
-
 			});
 		}
 		
+		if(secondoButton == (Button)event.getSource()){
+			dialogBox2 = new DialogBox();
+			dialogBox2.setText("Speechy Service Registrazione");
+			dialogBox2.setAnimationEnabled(true);
+			final Button close = new Button("Chiudi");
+			close.setSize("70px", "25px");
+			VerticalPanel dialogVPanel = new VerticalPanel();
+			dialogVPanel.add(new GUI_Esempio2()); // richiamo il pannello che gestisce la registrazione.
+			dialogVPanel.setHorizontalAlignment(VerticalPanel.ALIGN_RIGHT);
+			dialogVPanel.add(close);
+			dialogBox2.setWidget(dialogVPanel);
+			dialogBox2.center();
+			close.addClickHandler(new ClickHandler() {
+				public void onClick(ClickEvent event) {
+					dialogBox2.hide();
+				}
+			});
+		}
+	
 	}
 }
