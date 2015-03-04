@@ -1,0 +1,86 @@
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2724 units from cache.
+Compiling...
+   0% complete (ETR: 66 seconds)
+   10% complete (ETR: 54 seconds)
+   20% complete (ETR: 36 seconds)
+   30% complete (ETR: 29 seconds)
+   40% complete (ETR: 22 seconds)
+   50% complete (ETR: 17 seconds)
+   60% complete (ETR: 12 seconds)
+   70% complete (ETR: 9 seconds)
+   80% complete (ETR: 6 seconds)
+   90% complete (ETR: 3 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 57,33 seconds
+Validating units:
+   [ERROR] Errors in 'file:/C:/Users/Lia/Documents/EclipseProjects/EsempioGWT/src/com/EsempioGWT/client/EsempioGWT.java'
+      [ERROR] Line 115: GUI_Esempio cannot be resolved to a type
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/C:/Users/Lia/Documents/EclipseProjects/EsempioGWT/src/com/EsempioGWT/client/EsempioGWT.java'
+      [ERROR] Line 115: GUI_Esempio cannot be resolved to a type
+   [ERROR] Unable to find type 'com.EsempioGWT.client.EsempioGWT'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2724 cached/archived units.  Used 2724 / 2724 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/C:/Users/Lia/Documents/EclipseProjects/EsempioGWT/src/com/EsempioGWT/client/EsempioGWT.java'
+      [ERROR] Line 115: GUI_Esempio cannot be resolved to a type
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/C:/Users/Lia/Documents/EclipseProjects/EsempioGWT/src/com/EsempioGWT/client/EsempioGWT.java'
+      [ERROR] Line 115: GUI_Esempio cannot be resolved to a type
+   [ERROR] Unable to find type 'com.EsempioGWT.client.EsempioGWT'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2724 cached/archived units.  Used 2724 / 2724 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/C:/Users/Lia/Documents/EclipseProjects/EsempioGWT/src/com/EsempioGWT/client/EsempioGWT.java'
+      [ERROR] Line 115: GUI_Esempio cannot be resolved to a type
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/C:/Users/Lia/Documents/EclipseProjects/EsempioGWT/src/com/EsempioGWT/client/EsempioGWT.java'
+      [ERROR] Line 115: GUI_Esempio cannot be resolved to a type
+   [ERROR] Unable to find type 'com.EsempioGWT.client.EsempioGWT'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2724 cached/archived units.  Used 2724 / 2724 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/C:/Users/Lia/Documents/EclipseProjects/EsempioGWT/src/com/EsempioGWT/client/EsempioGWT.java'
+      [ERROR] Line 115: GUI_Esempio cannot be resolved to a type
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/C:/Users/Lia/Documents/EclipseProjects/EsempioGWT/src/com/EsempioGWT/client/EsempioGWT.java'
+      [ERROR] Line 115: GUI_Esempio cannot be resolved to a type
+   [ERROR] Unable to find type 'com.EsempioGWT.client.EsempioGWT'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
+Public resources found in...
+Translatable source found in...
+Found 2724 cached/archived units.  Used 2724 / 2724 units from cache.
+Compiling...
+   Compilation completed in 0,00 seconds
+Validating units:
+   [ERROR] Errors in 'file:/C:/Users/Lia/Documents/EclipseProjects/EsempioGWT/src/com/EsempioGWT/client/EsempioGWT.java'
+      [ERROR] Line 115: GUI_Esempio cannot be resolved to a type
+Removing invalidated units
+Finding entry point classes
+   [ERROR] Errors in 'file:/C:/Users/Lia/Documents/EclipseProjects/EsempioGWT/src/com/EsempioGWT/client/EsempioGWT.java'
+      [ERROR] Line 115: GUI_Esempio cannot be resolved to a type
+   [ERROR] Unable to find type 'com.EsempioGWT.client.EsempioGWT'
+      [ERROR] Hint: Previous compiler errors may have made this type unavailable
+      [ERROR] Hint: Check the inheritance chain from your module; it may not be inheriting a required module or a module may not be adding its source path entries properly
